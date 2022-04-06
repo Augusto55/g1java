@@ -26,6 +26,15 @@ public class Pessoa {
         this.setPossuiMulta(false);
         this.setValorMulta(0);
     }
+
+    public void mostrarPessoa(){
+        System.out.println("Nome: " + this.getNome());
+        System.out.println("CPF: " + this.getCpf());
+        System.out.println("Idade: " + this.getIdade());
+        System.out.println("N. de livros alugados: " + this.getLivrosAlugados());
+        System.out.println("Possui multa: " + this.isPossuiMulta());
+        System.out.println("Valor da multa: " + this.getValorMulta());
+    }
     /**
      * @return the nome
      */
@@ -116,13 +125,7 @@ public class Pessoa {
     public static void main(String[] args){ 
         Pessoa pessoa1 = new Pessoa();
         pessoa1.criarPessoa();
-        
-        System.out.println("Nome: " + pessoa1.getNome());
-        System.out.println("CPF: " + pessoa1.getCpf());
-        System.out.println("Idade: " + pessoa1.getIdade());
-        System.out.println("N. de livros alugados: " + pessoa1.getLivrosAlugados());
-        System.out.println("Possui multa: " + pessoa1.isPossuiMulta());
-        System.out.println("Valor da multa: " + pessoa1.getValorMulta());
+        pessoa1.mostrarPessoa();
 }
 }
 
