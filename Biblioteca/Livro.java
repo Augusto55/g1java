@@ -17,14 +17,8 @@ public class Livro {
     public String Editora;
     public boolean estaAlugado;
 
-    public void criarLivro(String nome, String genero, int ano, int codigo, String editora, boolean estaAlugado){
-        this.setNome(nome);
-        this.setGenero(genero);
-        this.setAno(ano);
-        this.setCodigo(codigo);
-        this.setEditora(editora);
-        this.setEstaAlugado(false);
-        
+    public void criarLivro(){
+    
         
     }
   
