@@ -9,7 +9,7 @@ package Biblioteca;
  *
  * @author 1131312
  */
-public class Biblioteca {
+/* public class Biblioteca {
     public void buscarLivro(int codigo){
         for(int i = 0; i < 5; i++){
             if(getCodigo == i){
@@ -17,9 +17,12 @@ public class Biblioteca {
             }
         }
     }
+
     
     
     public static void main(String[] args){
         
     }
 }
+
+ */

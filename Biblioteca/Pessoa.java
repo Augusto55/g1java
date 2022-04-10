@@ -126,7 +126,7 @@ public class Pessoa {
         Pessoa pessoa1 = new Pessoa();
         pessoa1.criarPessoa();
         pessoa1.mostrarPessoa();
-}
+    }
 }
 
 
