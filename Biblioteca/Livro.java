@@ -46,6 +46,16 @@ public class Livro {
         }
     }
 
+    public void devolverLivro(){
+        if(this.estaAlugado) {
+            this.estaAlugado = false;
+            System.out.println("O livro foi devolvido");
+        }
+        else {
+            System.out.println("Este livro não está alugado");
+            System.out.println("                ");
+        }
+    }
 
 
     public static void main(String[] args) {
@@ -58,6 +68,7 @@ public class Livro {
         livroA.criarLivro("Neuromancer", "Cyberpunk", 2017, 2, "Aleph", false);
         livroA.mostrarLivro();
         livroA.alugarLivro();
+        livroA.devolverLivro();
 
 
     }
